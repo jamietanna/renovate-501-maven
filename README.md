@@ -1,5 +1,7 @@
 # Renovate with Maven Central returns HTTP 501
 
+For https://github.com/renovatebot/renovate/discussions/24498
+
 ```sh
 # from this repository, run
 env RENOVATE_LOG_FILE=debug.log renovate --token $GITHUB_TOKEN jamietanna/renovate-501-maven --dry-run
